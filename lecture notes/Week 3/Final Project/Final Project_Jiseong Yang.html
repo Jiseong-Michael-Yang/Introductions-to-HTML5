@@ -1,22 +1,33 @@
+<!-- HTML declaration -->
 <!DOCTYPE html>
+<!-- Opening html tag -->
 <html lang = "en">
+    <!-- Head -->
     <head>
         <meta charset = "UTF-8">
         <title>My Final Project</title>
     </head>
+    <!-- Body -->
     <body>
+        <!-- Header -->
         <header>
+            <!-- Main title -->
             <h1>Jiseong Yang</h1>
+            <!-- Navigation -->
             <nav>
-                <a><u>One</u></a>
-                <a><u>Two</u></a>
-                <a><u>Three</u></a>
-                <a><u>More</u></a>
+                <a href=#favorite-food><u>One</u></a>
+                <a href=#achievements><u>Two</u></a>
+                <a href=#more-about-me><u>Three</u></a>
+                <a href=#footer><u>About</u></a>
             </nav>
         </header>
-        <Main>
+        <!-- Main -->
+        <main>
+            <!-- Favorite foods section -->
             <section>
-                <h2>Favorite Foods</h2>
+                <!-- Section title -->
+                <h2 id="favorite-foods">Favorite Foods</h2>
+                    <!-- Section contents -->
                     <ul>
                         <li>Pineapples</li>
                         <li>Pizza</li>
@@ -24,12 +35,32 @@
                         <li>Big Mac</li>
                     </ul>
             </section>
-            <h2>Achievements</h2>
-            <h2>More About Me</h2>
-        </Main>
-        <footer>
-            <img src="https://www.intro-webdesign.com/images/newlogo.png" alt="WD4E"/>
-            This page was created by Jiseong & Colleen van Lent. To learn more about web design, visit <a href="https://www.intro-webdesign.com/">Intro to Web Design</a>
+            <!-- Achievements section -->
+            <section>
+                <!-- Section title -->
+                <h2 id="achievements">Achievements</h2>
+                <!-- Section contents -->
+                <p>Progress in this course (100%) <progress value="100" max="100"></progress> <br/>
+                Progress in this Specialization capstone (20%) <progress value="20" max="100"></progress> <br/>
+                Progress in life goals (10%) <progress value="10" max="100"></progress></p>
+            </section>
+            <!-- More about me section -->
+            <section>
+                <!-- Section title -->
+                <h2 id="more-about-me">More About Me</h2>
+                <!-- Section content -->
+                <details open>
+                    <summary>My Childhood</summary>
+                    I was born in Korea, Repubic of. I'd been to the Florida State and New Zealand for an year each.
+                </details>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer id="footer">
+            <p>
+                <img src="https://www.intro-webdesign.com/images/newlogo.png" alt="new logo"/>
+                This page was created by Jiseong &amp; Colleen van Lent. To learn more about web design, visit <a href="https://www.intro-webdesign.com/">Intro to Web Design</a>
+            </p>
         </footer>
     </body>
 </html>
